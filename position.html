@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        header{
+            background-color: black;
+            height: 10vh;
+            position: sticky;
+            top: 0;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hlist{
+            display: inline;
+            text-decoration: none;
+            margin: 5vh;
+            color: white;
+        }
+        .container{
+            background-color: aquamarine;
+            height: 4040px;
+            width: 90vh;
+            margin: none;
+        }
+        .para{
+            color: black;
+            border: 4px solid yellowgreen;
+            border-radius: 5%;
+        }
+        .box{
+            background-color: blueviolet;
+            width: 190px;
+            position: relative;
+            top: -100px;
+            bottom: 0px;
+            left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <li class="hlist"><a class="hlist" href=""></a>Home</li>
+            <li class="hlist"><a class="hlist" href=""></a>Contact Us</li>
+            <li class="hlist"><a class="hlist" href=""></a>About Us</li>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+          <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla non et qui, vel accusantium quis similique sunt hic officia ex totam maiores eum iusto perspiciatis ullam aliquid aspernatur labore voluptatibus.</p>
+        </div>
+            <div class="box">
+                Lorem ipsum dolor sit amet.
+            </div>
+    </main>
+</body>
+</html>
